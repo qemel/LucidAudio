@@ -385,6 +385,12 @@ namespace AnnulusGames.LucidTools.Audio
             return this;
         }
 
+        public AudioPlayer SetTimeSamples(int timeSamples = 4400)
+        {
+            audioSource.timeSamples = timeSamples;
+            return this;
+        }
+
         public AudioPlayer SetAudioMixerGroup(AudioMixerGroup audioMixerGroup)
         {
             audioSource.outputAudioMixerGroup = audioMixerGroup;
