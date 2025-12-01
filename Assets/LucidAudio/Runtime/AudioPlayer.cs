@@ -100,7 +100,7 @@ namespace AnnulusGames.LucidTools.Audio
         private float startFadeDuration;
         private bool started;
 
-        internal readonly AudioType audioType;
+        public readonly AudioType audioType;
         internal AudioSource audioSource;
 
         internal AudioPlayer(AudioSource audioSource, AudioType audioType, AudioClip clip)
