@@ -48,6 +48,7 @@ namespace AnnulusGames.LucidTools.Audio
         {
             get
             {
+                if (audioSource == null) return null;
                 return audioSource.clip;
             }
         }
